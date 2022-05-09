@@ -1,0 +1,106 @@
+#body-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.score {
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+.timer {
+    position: absolute;
+    z-index: 2;
+    color:white;
+    left: 45%;
+}
+
+.sky {
+    background: url('/images/volcano.png');
+    width: 1000px;
+    height: 550px;
+    position: absolute;   
+    /* animation: ground 10s linear infinite; */
+}
+
+/* @keyframes sky {
+    0%{left: 0px;}
+    100%{left:-800px;}
+} */
+
+
+.ground {
+    background: url('/images/lava.png');
+    width: 200%;
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    animation: ground 20s linear infinite;
+    z-index: 2;
+}
+
+@keyframes ground {
+    0%{left: 0px;}
+    100%{left:-800px;}
+}
+
+#player {
+    width: 40px;
+    height: 40px;
+    /* background-image: url('/images/pig.png'); */
+    position: absolute;
+    z-index: 1;
+} 
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.obstacle {
+    width: 100px;
+    height: 200px;
+    background-image: url('/images/saw.png');
+    background-size: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.topObstacle {
+    width: 100px;
+    height: 200px;
+    background-image: url('/images/saw.png');
+    background-size: 100%;
+    transform: rotate(180deg);
+    transform: rotateX(180deg);
+    position: absolute;
+}
+
+.form {
+    position: absolute;
+    display: none;
+    border: 2px solid white;
+    color: white;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    left: 40%;
+    top: 30%
+}
+
+#leaderboard {
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+    margin-left: 0%;
+}
+
+
