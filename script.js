@@ -100,7 +100,7 @@
              gameDisplay.removeChild(obstacle)
 			 gameDisplay.removeChild(topObstacle)
             }				
-            if (obstacleLeft > 200 && obstacleLeft <= 250 && (playerBottom < obstacleBottom + 200 || playerBottom > gap - 50)){
+            if (obstacleLeft > 200 && obstacleLeft <= 250 && (playerBottom < obstacleBottom + 200 || playerBottom > gap)){
 				playerImg.src = "/images/ham.png"
 				startGame()
 				if (playerBottom <= 50) {
