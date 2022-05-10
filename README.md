@@ -1,6 +1,7 @@
 # Smoking-Bacon
 
-Site: smokin-bacon.netlify.app
+Sites: 
+smokin-bacon.netlify.app
 https://smokin-bacon.herokuapp.com/
 
 Technologies used:
